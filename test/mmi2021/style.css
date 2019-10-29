@@ -1,0 +1,407 @@
+body, html{}
+
+li {font-size: 15px;
+	font-family: "Nachlieli CLM"; 
+	display: inline-block;
+	color: #FF7D05;
+	text-decoration: none;
+   }
+
+li:hover a{
+
+	color: white;
+}
+
+h1 {font-size: 80px;
+	color: #FF7D05;
+	font-family: "Bebas Neue" }
+
+p  {font-size: 16px;
+	font-family: "Roboto"}
+
+h3{display: inline-block;}
+div.menuhaut{text-align: right;}
+div.menubas{text-align: center;}
+div.textfin{text-align: center;}
+
+/*
+	HEADER
+*/
+
+.menuhaut{
+	background-color: black;
+	text-align: right;
+	height: 10vh;
+	/*width: 100vw;*/
+}
+
+.menuhaut a {
+	color: #FF7D05;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.menuhaut ul {
+	padding-top: 15px;
+	padding-right: 25px;
+}
+
+.menuhaut li{
+	margin-right: 10px;
+}
+
+.htm{
+	float: left;
+	height: auto;
+	width: 80px;
+}
+
+.suzuki{
+	background: url(images/suzuki.jpg);
+	/*width: 100vw;*/
+	height: 90vh;
+}
+
+.logo{
+	height: 500px;
+	width: 500px;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.fleche{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	height: auto;
+	width: 175px;
+
+}
+
+
+/* 
+	SECTION 1
+*/
+
+.S1 {
+	display: flex;
+	height: 600px;
+	margin-top: 50px;
+}
+
+.S1 > * {
+	flex: 1;
+	height: 100;
+	background: white;
+}
+
+.S1 .textH1 {
+	background-image: url("images/S1.jpg");
+	background-size: cover;
+	background-position: center right ;
+	text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+
+.S1 h1 {
+	position: relative;
+	left: 59.5%;
+	max-width: 700px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+div.textS1 p {
+	margin-top: 350px;
+	margin-left: 200px
+}
+.decouvrirS1 {
+	display: block;
+	max-width: 300px;
+	height :100px;
+	margin-left: 175px;
+}
+
+/*
+	SECTION 2
+*/
+
+.S2 {
+	display: flex;
+	height: 600px;
+	margin-top: 100px;
+
+
+}
+
+.S2 > * {
+	flex: 1;
+	height: 100;
+	background: white;
+}
+
+.S2 .textH2 {
+
+	background-image: url("images/S2.jpg");
+	background-size: cover;
+	background-position: center left;
+text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+
+.S2 h1 {
+	position: relative;
+	left: -30%;
+	max-width: 700px;
+	width: 100%;
+	margin-top: 50px;
+
+}
+
+
+div.textS2 p {
+	margin-top: 350px;
+	margin-left: 200px;
+}
+
+
+.decouvrirS2 {
+	display: block;
+	max-width: 300px;
+	height :100px;
+	margin-left: 175px;
+}
+
+
+
+
+
+
+/*
+	SECTION 3
+*/
+
+.S3 {
+	display: flex;
+	height: 600px;
+	margin-top: 50px;
+
+}
+
+.S3 > * {
+	flex: 1;
+	height: 100;
+	background: white;
+}
+
+.S3 .textH3 {
+	background-image: url("images/S3.jpg");
+	background-size: cover;
+	background-position: center right;
+	text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+
+.S3 h1 {
+	position: relative;
+	left: 50%;
+	max-width: 700px;
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 120px;
+
+}
+
+
+div.textS3 p {
+	margin-top: 350px;
+	margin-left: 200px;
+}
+
+.decouvrirS3 {
+	display: block;
+	max-width: 300px;
+	height :100px;
+	margin-left: 175px;
+}
+
+
+.maps {
+display: block;
+height: 180px;
+
+padding-top: 20px
+
+}
+
+.divsponsor{
+	width: 100%;
+	background-image:url(images/sponsos.png);
+	height: 400px;
+
+}
+
+/*
+	Informations	
+*/
+
+.flexmere{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	background-color: #FF7D05;
+}
+
+.flexgauche{
+	display: flex;
+	flex-direction: column;
+}
+
+.flexgauche h3{
+text-align: center;
+display: block;
+
+}
+
+.flexdroite{
+	display: flex;
+	flex-direction: column;
+}
+
+/*
+	Menu Bas
+*/
+
+.menubas{
+	background-color: black;
+	text-align: right;
+	height: 10vh;
+	/*width: 100vw;*/
+}
+
+
+
+
+.menubas a {
+	color: #FF7D05;
+	text-decoration: none;
+}
+
+.menubas {
+	padding-top: 25px;
+}
+
+
+.container{
+
+flex-direction: row;
+flex-direction: row-reverse;
+}
+
+.menubas li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+/* BOUTON BLANC */
+
+.button:hover {
+	color:black;
+	background:white;
+}
+
+
+
+
+/* GENERAL effet sous ligné menu */
+.menuhaut a {
+  display: table;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #FF7D05;
+  margin: 10px auto;
+  position: relative;
+}
+
+
+.menuhaut a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  background: #FF7D05;
+  transition: width .2s
+}
+
+.menuhaut li:hover a:after {
+  width: 100%;
+  left: 0;
+}
+/* GENERAL effet sous ligné menu */
+.menubas a {
+  display: table;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #FF7D05;
+  margin: 10px auto;
+  position: relative;
+}
+
+
+.menubas a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  background: #FF7D05;
+  transition: width .2s
+}
+
+.menubas li:hover a:after {
+  width: 100%;
+  left: 0;
+}
+
+
+
+/* Effet sur les boutons découvrir*/
+.decouvrirS1, .decouvrirS2, .decouvrirS3 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.decouvrirS3:hover, .decouvrirS2:hover, .decouvrirS1:hover {
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+/* Menu défilant les bg */
+
+
+.Menudefilant {
+  position: -webkit-sticky; 
+  position: fixed;
+ 
+display: block;
+	
+	right: 50px;
+	bottom: 50px;
+
+}
+.Menudefilant img{
+	max-width: 100px;
+	height :100px;
+
+}
+
